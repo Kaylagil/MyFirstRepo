@@ -1,33 +1,110 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF=8">
-        <title> Student Bio</title>
-    </head>
-    <body>
-        <header>
+
+<head>
+    <meta charset="UTF=8">
+    <title> Student Bio</title>
+</head>
+<link rel="stylesheet" type"text/css" href="css/style.css">
+<style>
+    h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .centered {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    body {
+        margin: 0;
+        padding: 20px;
+        background-color: #efeee7;
+        font-family: georgia, "Times New Roman", serif;
+        color: #333333;
+        line-height: 1.5;
+
+    }
+
+    header {
+        background-color: #333333;
+    }
+
+    h1 {
+        color: #eee;
+        font-size: 28px;
+
+    }
+
+    ul {
+        border: solid 10px black;
+        float: right;
+
+    }
+
+    #bio-image {
+        text-align: left;
+        width: 200px;
+        transform: rotate(90deg);
+    }
+
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+
+    }
+
+    #contact-info {
+        text-align: center;
+        width: 30%;
+        float: left;
+
+    }
+
+    #main-bio {
+        text-align: left;
+        width: 60%;
+        float: left;
+
+    }
+
+    a {
+        color: red;
+    }
+</style>
+
+<body>
+    <header>
         <h1>Student Bio</h1>
-        <h2>Kayla Gilchrist</h2>
-        <img src="file:///Users/kayachi/Desktop/mypic.jpeg" width="200" height="200 alt="a picture of me">
-        </header>
-        <br> 
-        <section>
-        <p> My name is Kayla Gilchrist and i am currently attending University of Miami Coding Bootcamp.
-            I am 18 years old. I live near cutler bay, and i am going here instead of traditional 
-            college. i like to learn alot <a href="https://www.google.com"target="_blank"> Google</a> is my favorite 
-            website to learn. i believe in self education through books and research.
-        </p>
+    </header>
+    <div class="centered container">
+        <section id="main-bio">
+            <h2>Kayla Gilchrist</h2>
+
+            <img src="file:///Users/kayachi/Desktop/mypic.jpeg" id="bio-image" width="200" height="200 alt=" a picture
+                of me">
+            <p> My name is Kayla Gilchrist and i am currently attending University of Miami Coding Bootcamp.
+                I am 18 years old. I live near cutler bay, and i am going here instead of traditional
+                college. i like to learn alot <a href="https://www.google.com" target="_blank"> Google</a> is my
+                favorite
+                website to learn. i believe in self education through books and research.
+            </p>
         </section>
-        <section>
-        <h2> Contact Info</h2>
-        <ul>
-            <li> <strong>Email:</strong><a href="mailto:kaylangilchrist@gmail.com">kaylangilchrist@gmail.com></a></li>
-            <li> <strong>Github:</strong>kaylagil</li>
-            <li> <strong>Portfolio</strong>coming soon</li>
-        </ul>
+        <section id="contact-info">
+
+            <h2> Contact Info </h2>
+            <ul>
+                <li> <strong>Email:</strong><a href="mailto:kaylangilchrist@gmail.com">kaylangilchrist@gmail.com></a></li>
+                <li> <strong>Github:</strong>kaylagil</li>
+                <li> <strong>Portfolio:</strong>coming soon</li>
+            </ul>
         </section>
+    </div>
 
 
 
-    </body>
+</body>
+
 </html>
